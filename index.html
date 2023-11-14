@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valyuta çeviricisi</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="./images/logo.svg" alt="bank logo">
+        <nav>
+            <p>BANK</p>
+            <p>BİZNES</p>
+            <p>İNVESTİSİYA</p>
+            <p>SIĞORTA</p>
+            <p>MOBİL</p>
+            <p>SƏFƏRLƏR</p>
+            <p>ƏYLƏNCƏ</p>
+        </nav>
+        <button>
+            GİRİŞ
+        </button>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Onlayn valyuta çeviricisi</h1>
+            <div class="calculators">
+                <div class="calculator first">
+                    <div class="explain">
+                        <p>Mənim varımdır</p>
+                    </div>
+                    <div class="currencies">
+                        <button class="rub">RUB</button>
+                        <button class="usd">USD</button>
+                        <button class="eur">EUR</button>
+                        <button class="azn">AZN</button>
+                    </div>
+                    <div class="input">
+                        <input type="number">
+                        <p class="rate"></p>
+                    </div>
+                </div>
+                <div class="calculator last">
+                    <div class="explain">
+                        <p>Almaq istəyirəm</p>
+                    </div>
+                    <div class="currencies">
+                        <button class="rub">RUB</button>
+                        <button class="usd">USD</button>
+                        <button class="eur">EUR</button>
+                        <button class="azn">AZN</button>
+                    </div>
+                    <div class="input">
+                        <input type="number">
+                        <p class="rate"><!-- <span>1 USD</span> = <span>73.8896 RUB</span> --></p>
+                    </div>
+                </div>
+            </div>
+            <div class="alert display-none">
+                <p>Oops! Bağlantı mövcud deyil</p>
+            </div>
+        </div> 
+    </main>
+    <script src="./app.js"></script>
+</body>
+
+</html>
