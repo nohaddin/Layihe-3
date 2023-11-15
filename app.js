@@ -1,5 +1,5 @@
 let currencies = ["RUB", "USD", "EUR", "AZN"];
-const apiKey = "fca_live_9LBhYW4At6eqnhTd5lV2PKmRkmZThVwmRqXvrWqk"
+const apiKey = "cur_live_v0QstAy5jKhmO8OR4xbpehKDO8nYRIc2WB3VmpCJ"
 
 
 class Calculator {
